@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66e94c12-bc2e-41fe-a9d4-1ce9ddcbd7d8" name="Changes" comment="All classes added.&#10;Getters and setters still missing.">
+    <list default="true" id="66e94c12-bc2e-41fe-a9d4-1ce9ddcbd7d8" name="Changes" comment="Code finalized, still has some details but works perfectly.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pkgEmpleados/AdministrativeAssistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkgEmpleados/AdministrativeAssistant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pkgEmpleados/DataAnalyst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkgEmpleados/DataAnalyst.java" afterDir="false" />
@@ -95,7 +95,7 @@
       <updated>1713037615994</updated>
       <workItem from="1713037617035" duration="4002000" />
       <workItem from="1713068870489" duration="3541000" />
-      <workItem from="1713126514339" duration="5360000" />
+      <workItem from="1713126514339" duration="5732000" />
     </task>
     <task id="LOCAL-00001" summary="Export to repository">
       <option name="closed" value="true" />
@@ -113,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713072208109</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Code finalized, still has some details but works perfectly.">
+      <option name="closed" value="true" />
+      <created>1713134311680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713134311680</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Export to repository" />
     <MESSAGE value="All classes added.&#10;Getters and setters still missing." />
-    <option name="LAST_COMMIT_MESSAGE" value="All classes added.&#10;Getters and setters still missing." />
+    <MESSAGE value="Code finalized, still has some details but works perfectly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Code finalized, still has some details but works perfectly." />
   </component>
 </project>

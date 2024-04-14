@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66e94c12-bc2e-41fe-a9d4-1ce9ddcbd7d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaEmployeeManagement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/DataAnalyst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/Employed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/Secretary.java" afterDir="false" />
+    <list default="true" id="66e94c12-bc2e-41fe-a9d4-1ce9ddcbd7d8" name="Changes" comment="Export to repository">
+      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/AdministrativeAssistant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/GraphicDesigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/Janitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/Marketing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/SoftwareEngineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/TechnicalSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkgEmpleados/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkgMain/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkgEmpleados/DataAnalyst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkgEmpleados/DataAnalyst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkgEmpleados/Employed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkgEmpleados/Employed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkgEmpleados/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkgEmpleados/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkgEmpleados/Secretary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkgEmpleados/Secretary.java" afterDir="false" />
     </list>
+    <list id="0f7da959-de4e-4699-bd40-b7dfaf6bb6f0" name="Changes by Miguel" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,15 +36,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MikeSs26/JavaEmployeeManagement.git",
-    "accountId": "888d7446-abe4-41b7-805e-f17968410359"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MikeSs26&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MikeSs26/JavaEmployeeManagement.git&quot;,
+    &quot;accountId&quot;: &quot;888d7446-abe4-41b7-805e-f17968410359&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2f3lPB8GVdNUxuKMcAyXJOSk6im" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,22 +59,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Employed.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Mike Bright Light/OneDrive - Universidad Tecnológica de Panamá/Escritorio/JavaEmployeeManagement/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Employed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Mike Bright Light/OneDrive - Universidad Tecnológica de Panamá/Escritorio/JavaEmployeeManagement/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,11 +92,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713037615994</updated>
-      <workItem from="1713037617035" duration="921000" />
+      <workItem from="1713037617035" duration="4002000" />
+      <workItem from="1713068870489" duration="3017000" />
     </task>
+    <task id="LOCAL-00001" summary="Export to repository">
+      <option name="closed" value="true" />
+      <created>1713038745317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713038745317</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Export to repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Export to repository" />
   </component>
 </project>

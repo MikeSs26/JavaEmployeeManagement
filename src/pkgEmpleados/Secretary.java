@@ -1,15 +1,15 @@
 package pkgEmpleados;
 
 public class Secretary extends Employed {
-    public Secretary(String name, String id, String gender, String employmentType, double baseSalary, int age, double workHours) {
+    private String beautyLevel;
+    private int measurements;
+    private boolean single;
+
+    public Secretary(String name, String id, String gender, String employmentType, double baseSalary, int age, double workHours, String beautyLevel, int measurements, boolean single) {
         super(name, id, gender, employmentType, baseSalary, age, workHours);
-        if (employmentType.equalsIgnoreCase("full")) {
-            this.workHours = 40;
-        } else if (employmentType.equalsIgnoreCase("part")) {
-            this.workHours = 20;
-        } else {
-            throw new IllegalArgumentException("Invalid employment type: " + employmentType);
-        }
+        this.beautyLevel = beautyLevel;
+        this.measurements = measurements;
+        this.single = single;
     }
 
     public void manageSchedule() {
@@ -25,7 +25,7 @@ public class Secretary extends Employed {
     }
 
     public void writeLetters() {
-        System.out.println(String.format("Secretary %s is writting the letters.", getEmployedName()));
+        System.out.println(String.format("Secretary %s is writing the letters.", getEmployedName()));
     }
 
     public void organizeMeetings() {
@@ -33,7 +33,30 @@ public class Secretary extends Employed {
     }
 
     public void receiveVisitors() {
-        System.out.println(String.format("Secretary &s is attending visitors.", getEmployedName()));
+        System.out.println(String.format("Secretary %s is attending visitors.", getEmployedName()));
+    }
+
+    public String getBeautyLevel() {
+        return beautyLevel;
+    }
+
+    public void setBeautyLevel(String beautyLevel) {
+        this.beautyLevel = beautyLevel;
+    }
+
+    public int getMeasurements() {
+        return measurements;
+    }
+
+    public void setMeasurements(int measurements) {
+        this.measurements = measurements;
+    }
+
+    public boolean isSingle() {
+        return single;
+    }
+
+    public void setSingle(boolean single) {
+        this.single = single;
     }
 }
-

@@ -37,26 +37,26 @@ public class TechnicalSupport extends Employed {
     }
 
     public void resolveIncidents() {
-        System.out.println(String.format("Technical support %s is resolving incidents.", getEmployedName()));
+        System.out.printf("Technical support %s is resolving incidents.%n", getEmployedName());
     }
 
     public void updateSoftware() {
-        System.out.println(String.format("Technical support %s is updating software.", getEmployedName()));
+        System.out.printf("Technical support %s is updating software.%n", getEmployedName());
     }
 
     public void provideAdvice() {
-        System.out.println(String.format("Technical support %s is providing advice.", getEmployedName()));
+        System.out.printf("Technical support %s is providing advice.%n", getEmployedName());
     }
 
     public void provideTraining() {
-        System.out.println(String.format("Technical support %s is providing training.", getEmployedName()));
+        System.out.printf("Technical support %s is providing training.%n", getEmployedName());
     }
 
     public void followCases() {
-        System.out.println(String.format("Technical support %s is following cases.", getEmployedName()));
+        System.out.printf("Technical support %s is following cases.%n", getEmployedName());
     }
 
     public void reportSituations() {
-        System.out.println(String.format("Technical support %s is reporting situations.", getEmployedName()));
+        System.out.printf("Technical support %s is reporting situations.%n", getEmployedName());
     }
 }

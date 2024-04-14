@@ -103,15 +103,6 @@ public class Employed {
         System.out.println(employedName + " has received a bonus.");
 
     }
-    /*
-    public static void main(String[] args) {
-        Employed employed1 = new Employed("Miguel Lucia", "ID1", "Male", "full", 17.4, 19, 40); // full-time with 40 hours
-        Manager mger = new Manager("Jose Montero", "ID4", "Male", "part", 10.2, 33, 20);
-        Secretary scrt = new Secretary("Jazmin Fuentes", "ID7", "Female", "full", 18.7, 20, 40);
-        displayEmployeeInfo(employed1);
-        displayEmployeeInfo(mger);
-        displayEmployeeInfo(scrt);
-    }
-    */
+
 
 }

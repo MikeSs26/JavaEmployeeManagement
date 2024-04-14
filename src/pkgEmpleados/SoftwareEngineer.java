@@ -1,39 +1,33 @@
 package pkgEmpleados;
 
 public class SoftwareEngineer extends Employed {
-    private String languages;
-    private String projects;
-    private String responsibleAgent;
 
     public SoftwareEngineer(String employedName, String idEmployed, String gender, String employmentType, double baseSalary, int age, double workHours, String languages, String projects, String responsibleAgent) {
         super(employedName, idEmployed, gender, employmentType, baseSalary, age, workHours);
-        this.languages = languages;
-        this.projects = projects;
-        this.responsibleAgent = responsibleAgent;
     }
 
     public void developSoftware() {
-        System.out.println(String.format("Software engineer %s is developing software.", getEmployedName()));
+        System.out.printf("Software engineer %s is developing software.%n", getEmployedName());
     }
 
     public void performTests() {
-        System.out.println(String.format("Software engineer %s is performing tests.", getEmployedName()));
+        System.out.printf("Software engineer %s is performing tests.%n", getEmployedName());
     }
 
     public void maintainSystems() {
-        System.out.println(String.format("Software engineer %s is maintaining systems.", getEmployedName()));
+        System.out.printf("Software engineer %s is maintaining systems.%n", getEmployedName());
     }
 
     public void writeCode() {
-        System.out.println(String.format("Software engineer %s is writing code.", getEmployedName()));
+        System.out.printf("Software engineer %s is writing code.%n", getEmployedName());
     }
 
     public void designPrograms() {
-        System.out.println(String.format("Software engineer %s is designing programs.", getEmployedName()));
+        System.out.printf("Software engineer %s is designing programs.%n", getEmployedName());
     }
 
     public void troubleshoot() {
-        System.out.println(String.format("Software engineer %s is troubleshooting.", getEmployedName()));
+        System.out.printf("Software engineer %s is troubleshooting.%n", getEmployedName());
     }
 }
 

@@ -13,30 +13,29 @@ public class Manager extends Employed {
     }
 
     public void assignTask() {
-        System.out.println(String.format("Manager %s is assigning a task.", getEmployedName()));
+        System.out.printf("Manager %s is assigning a task.%n", getEmployedName());
     }
 
     public void manageTeam() {
-        System.out.println(String.format("Manager %s is managing the team.", getEmployedName()));
+        System.out.printf("Manager %s is managing the team.%n", getEmployedName());
     }
 
     public void generateReport() {
-        System.out.println(String.format("Manager %s is generating a report.", getEmployedName()));
+        System.out.printf("Manager %s is generating a report.%n", getEmployedName());
     }
 
     public void manageSchedule() {
-        System.out.println(String.format("Manager %s is managing the schedule.", getEmployedName()));
+        System.out.printf("Manager %s is managing the schedule.%n", getEmployedName());
     }
 
     public void monitorPerformance() {
-        System.out.println(String.format("Manager %s is monitoring the team's performance.", getEmployedName()));
+        System.out.printf("Manager %s is monitoring the team's performance.%n", getEmployedName());
     }
 
     public void correctiveAction() {
-        System.out.println(String.format("Manager %s is performing corrective action work.", getEmployedName()));
+        System.out.printf("Manager %s is performing corrective action work.%n", getEmployedName());
     }
 
-    // Getters and setters for new attributes
     public String getDepartment() {
         return department;
     }

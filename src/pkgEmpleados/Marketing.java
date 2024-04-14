@@ -1,39 +1,33 @@
 package pkgEmpleados;
 
 public class Marketing extends Employed {
-    private String designSkill;
-    private String analyticalSkills;
-    private String creativity;
 
     public Marketing(String employedName, String idEmployed, String gender, String employmentType, double baseSalary, int age, double workHours, String designSkill, String analyticalSkills, String creativity) {
         super(employedName, idEmployed, gender, employmentType, baseSalary, age, workHours);
-        this.designSkill = designSkill;
-        this.analyticalSkills = analyticalSkills;
-        this.creativity = creativity;
     }
 
     public void advertise() {
-        System.out.println(String.format("Marketing employee %s is advertising.", getEmployedName()));
+        System.out.printf("Marketing employee %s is advertising.%n", getEmployedName());
     }
 
     public void marketResearch() {
-        System.out.println(String.format("Marketing employee %s is conducting market research.", getEmployedName()));
+        System.out.printf("Marketing employee %s is conducting market research.%n", getEmployedName());
     }
 
     public void studySEO() {
-        System.out.println(String.format("Marketing employee %s is studying SEO.", getEmployedName()));
+        System.out.printf("Marketing employee %s is studying SEO.%n", getEmployedName());
     }
 
     public void manageSocialMedia() {
-        System.out.println(String.format("Marketing employee %s is managing social media.", getEmployedName()));
+        System.out.printf("Marketing employee %s is managing social media.%n", getEmployedName());
     }
 
     public void createPromotions() {
-        System.out.println(String.format("Marketing employee %s is creating promotions.", getEmployedName()));
+        System.out.printf("Marketing employee %s is creating promotions.%n", getEmployedName());
     }
 
     public void makeAdvertisements() {
-        System.out.println(String.format("Marketing employee %s is making advertisements.", getEmployedName()));
+        System.out.printf("Marketing employee %s is making advertisements.%n", getEmployedName());
     }
 }
 

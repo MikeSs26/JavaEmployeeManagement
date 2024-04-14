@@ -13,27 +13,27 @@ public class DataAnalyst extends Employed {
     }
 
     public void analyzeData() {
-        System.out.println(String.format("Data analyst %s is analyzing data.", getEmployedName()));
+        System.out.printf("Data analyst %s is analyzing data.%n", getEmployedName());
     }
 
     public void generateAnalysisReport() {
-        System.out.println(String.format("Data analyst %s is generating an analysis report.", getEmployedName()));
+        System.out.printf("Data analyst %s is generating an analysis report.%n", getEmployedName());
     }
 
     public void developPredictiveModels() {
-        System.out.println(String.format("Data analyst %s is developing predictive models.", getEmployedName()));
+        System.out.printf("Data analyst %s is developing predictive models.%n", getEmployedName());
     }
 
     public void collectData() {
-        System.out.println(String.format("Data analyst %s is collecting data.", getEmployedName()));
+        System.out.printf("Data analyst %s is collecting data.%n", getEmployedName());
     }
 
     public void cleanData() {
-        System.out.println(String.format("Data analyst %s is cleaning data.", getEmployedName()));
+        System.out.printf("Data analyst %s is cleaning data.%n", getEmployedName());
     }
 
     public void presentResults() {
-        System.out.println(String.format("Data analyst %s is presenting results.", getEmployedName()));
+        System.out.printf("Data analyst %s is presenting results.%n", getEmployedName());
     }
 
     // Getters and setters for new attributes

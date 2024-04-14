@@ -13,27 +13,27 @@ public class Secretary extends Employed {
     }
 
     public void manageSchedule() {
-        System.out.println(String.format("Secretary %s is managing the schedule.", getEmployedName()));
+        System.out.printf("Secretary %s is managing the schedule.%n", getEmployedName());
     }
 
     public void writeCorrespondence() {
-        System.out.println(String.format("Secretary %s is writing the correspondence.", getEmployedName()));
+        System.out.printf("Secretary %s is writing the correspondence.%n", getEmployedName());
     }
 
     public void organizeDocuments() {
-        System.out.println(String.format("Secretary %s is organizing the documents.", getEmployedName()));
+        System.out.printf("Secretary %s is organizing the documents.%n", getEmployedName());
     }
 
     public void writeLetters() {
-        System.out.println(String.format("Secretary %s is writing the letters.", getEmployedName()));
+        System.out.printf("Secretary %s is writing the letters.%n", getEmployedName());
     }
 
     public void organizeMeetings() {
-        System.out.println(String.format("Secretary %s is organizing a meeting.", getEmployedName()));
+        System.out.printf("Secretary %s is organizing a meeting.%n", getEmployedName());
     }
 
     public void receiveVisitors() {
-        System.out.println(String.format("Secretary %s is attending visitors.", getEmployedName()));
+        System.out.printf("Secretary %s is attending visitors.%n", getEmployedName());
     }
 
     public String getBeautyLevel() {

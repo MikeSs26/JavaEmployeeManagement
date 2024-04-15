@@ -59,4 +59,27 @@ public class TechnicalSupport extends Employed {
     public void reportSituations() {
         System.out.printf("Technical support %s is reporting situations.%n", getEmployedName());
     }
+
+    public void calculateSalary() {
+        double totalSalary = ((getBaseSalary() * getWorkHours()) + calculateBonus()) * 4;
+        System.out.printf("Technical support %s total salary: $%.2f%n", getEmployedName(), totalSalary);
+    }
+
+    public void requestVacation() {
+        System.out.printf("Technical support %s is requesting vacation days.%n", getEmployedName());
+    }
+
+    public void recordAttendance() {
+        System.out.printf("Technical support %s is recording daily attendance.%n", getEmployedName());
+    }
+
+    public void receiveBonus() {
+        double bonusAmount = calculateBonus();
+        setBaseSalary(getBaseSalary() + bonusAmount);
+        System.out.printf("Technical support %s is receiving a bonus for exceptional performance. Bonus received: $%.2f%n", getEmployedName(), bonusAmount);
+    }
+
+    private double calculateBonus() {
+        return 0.1 * getBaseSalary();
+    }
 }

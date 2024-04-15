@@ -29,5 +29,22 @@ public class Marketing extends Employed {
     public void makeAdvertisements() {
         System.out.printf("Marketing employee %s is making advertisements.%n", getEmployedName());
     }
+
+    public void calculateSalary() {
+        double totalSalary = (getBaseSalary() * getWorkHours()) * 4;
+        System.out.printf("Marketing employee %s total salary: $%.2f%n", getEmployedName(), totalSalary);
+    }
+
+    public void requestPermission() {
+        System.out.printf("Marketing employee %s is requesting permission for absence.%n", getEmployedName());
+    }
+
+    public void organizeInventory() {
+        System.out.printf("Marketing employee %s is organizing the inventory of products.%n", getEmployedName());
+    }
+
+    public void assistCustomers() {
+        System.out.printf("Marketing employee %s is assisting customers during working hours.%n", getEmployedName());
+    }
 }
 

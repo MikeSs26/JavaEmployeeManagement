@@ -59,4 +59,27 @@ public class Manager extends Employed {
     public void setAuthorityLevel(int authorityLevel) {
         this.authorityLevel = authorityLevel;
     }
+
+    public void calculateSalary() {
+        double totalSalary = ((getBaseSalary() * getWorkHours()) + calculateBonus()) * 4;
+        System.out.printf("Manager %s total salary: $%.2f%n", getEmployedName(), totalSalary);
+    }
+
+    public void requestVacation() {
+        System.out.printf("Manager %s is requesting vacation days.%n", getEmployedName());
+    }
+
+    public void recordAttendance() {
+        System.out.printf("Manager %s is recording daily attendance.%n", getEmployedName());
+    }
+
+    public void receiveBonus() {
+        double bonusAmount = calculateBonus();
+        setBaseSalary(getBaseSalary() + bonusAmount);
+        System.out.printf("Manager %s is receiving a bonus for exceptional performance. Bonus received: $%.2f%n", getEmployedName(), bonusAmount);
+    }
+
+    private double calculateBonus() {
+        return 0.1 * getBaseSalary();
+    }
 }

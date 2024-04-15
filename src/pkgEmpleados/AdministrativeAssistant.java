@@ -29,5 +29,23 @@ public class AdministrativeAssistant extends Employed {
     public void contactClients() {
         System.out.printf("Administrative assistant %s is contacting clients.%n", getEmployedName());
     }
+
+    public void calculateSalary() {
+        double totalSalary = (getBaseSalary() * getWorkHours()) * 4;
+        System.out.printf("Administrative assistant %s total salary: $%.2f%n", getEmployedName(), totalSalary);
+    }
+
+    public void requestPermission() {
+        System.out.printf("Administrative assistant %s is requesting permission for absence.%n", getEmployedName());
+    }
+
+    public void organizeInventory() {
+        System.out.printf("Administrative assistant %s is organizing the inventory of products.%n", getEmployedName());
+    }
+
+    public void assistCustomers() {
+        System.out.printf("Administrative assistant %s is assisting customers during working hours.%n", getEmployedName());
+    }
+
 }
 

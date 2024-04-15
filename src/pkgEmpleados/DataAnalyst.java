@@ -60,4 +60,21 @@ public class DataAnalyst extends Employed {
     public void setCriticalThinking(String criticalThinking) {
         this.criticalThinking = criticalThinking;
     }
+
+    public void calculateSalary() {
+        double totalSalary = (getBaseSalary() * getWorkHours()) * 4;
+        System.out.printf("Data analyst %s total salary: $%.2f%n", getEmployedName(), totalSalary);
+    }
+
+    public void requestPermission() {
+        System.out.printf("Data analyst %s is requesting permission for absence.%n", getEmployedName());
+    }
+
+    public void organizeInventory() {
+        System.out.printf("Data analyst %s is organizing the inventory of products.%n", getEmployedName());
+    }
+
+    public void assistCustomers() {
+        System.out.printf("Data analyst %s is assisting customers during working hours.%n", getEmployedName());
+    }
 }

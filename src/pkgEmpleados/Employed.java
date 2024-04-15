@@ -75,10 +75,6 @@ public class Employed {
         this.workHours = workHours;
     }
 
-    public double calculateSalary() {
-        return baseSalary * workHours;
-    }
-
     public static void displayEmployeeInfo(Employed emp) {
         System.out.println("Employee Name: " + emp.employedName);
         System.out.println("ID: " + emp.idEmployed);
@@ -86,23 +82,7 @@ public class Employed {
         System.out.println("Employment Type: " + emp.employmentType);
         System.out.println("Base Salary: " + emp.baseSalary);
         System.out.println("Age: " + emp.age);
-        System.out.println("Work Hours (Monthly): " + emp.workHours * 4);
-        System.out.println("Total Salary: " + emp.calculateSalary() + "\n");
+        System.out.println("Work Hours (Monthly): " + emp.workHours * 4 + "\n");
+        //System.out.println("Total Salary: " + emp.calculateSalary() + "\n");
     }
-
-    public void requestVacation() {
-        System.out.println(employedName + " has asked for vacations.");
-    }
-
-    public void registerAttendance() {
-        System.out.println(employedName + " has registered attendance.");
-    }
-
-    public void receiveBonus() {
-
-        System.out.println(employedName + " has received a bonus.");
-
-    }
-
-
 }

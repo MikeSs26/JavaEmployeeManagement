@@ -29,5 +29,28 @@ public class Security extends Employed {
     public void monitorCameras() {
         System.out.printf("Security guard %s is monitoring cameras.%n", getEmployedName());
     }
+
+    public void calculateSalary() {
+        double totalSalary = ((getBaseSalary() * getWorkHours()) + calculateBonus()) * 4;
+        System.out.printf("Security guard %s total salary:: $%.2f%n", getEmployedName(), totalSalary);
+    }
+
+    public void requestVacation() {
+        System.out.printf("Security guard %s is requesting vacation days.%n", getEmployedName());
+    }
+
+    public void recordAttendance() {
+        System.out.printf("Security guard %s is recording daily attendance.%n", getEmployedName());
+    }
+
+    public void receiveBonus() {
+        double bonusAmount = calculateBonus();
+        setBaseSalary(getBaseSalary() + bonusAmount);
+        System.out.printf("Security guard %s is receiving a bonus for exceptional performance. Bonus received: $%.2f%n", getEmployedName(), bonusAmount);
+    }
+
+    private double calculateBonus() {
+        return 0.1 * getBaseSalary();
+    }
 }
 
